@@ -1,11 +1,16 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+</script>
+
+<style>
+/* 全局样式 */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+</style>
